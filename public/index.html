@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="style.css">
+    <link href="//maxcdn.bootstrapcdn.com/font-awesome/4.1.0/css/font-awesome.min.css" rel="stylesheet">
+    <link href="https://afeld.github.io/emoji-css/emoji.css" rel="stylesheet">
+    <title>ULTIMAS NOTICIAS</title>
+</head>
+<body>
+    <h1>Las ultimas noticias registradas en este preciso momento</h1>
+    <div id="nav-principal">
+        <nav>
+            <button class="nav-style" onclick="mostrarInicio()">Inicio</a>
+            <button class="nav-style" onclick="mostrarEconomia()">Economia</a>
+            <button class="nav-style" onclick="mostrarArgentina()">El Pais</a>
+            <button class="nav-style" onclick="mostrarDeportes()">Deportes</a>
+            <button class="nav-style" onclick="mostrarLoUltimo()">Lo ultimo</a>
+        </nav>
+    <input type="text" id="busqueda" placeholder="Busca algo...">
+    <button onsubmit="mostrarNoticia(); return false;" id="enter"><span class="icon"><i class="fa fa-search"></i></span><span class="text">Buscar</span></button>
+</div>
+    <div id="rotate-container">
+        <i class="em em-grin"></i>
+      </div>
+      
+    <article id="resultados"></article>
+    <script src="script.js"></script>
+</body>
+</html>
