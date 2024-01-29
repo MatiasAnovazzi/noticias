@@ -13,4 +13,5 @@ Se consume la api [GNWES](https://gnews.io/), que proporciona datos y noticias r
 Es utilizada para recorrer los datos y representarlos de forma eficaz y con excelente rendimiento. 
 Para buscar por palabra clave se llama a la api con un parámetro que incluye la palabra clave, entre otros procesos. 
 
+Para deployar la app a internet se utilizo los servicios de almacenamiento y hosting de Firebase
 Para ver la app en funcionamiento, dirigirse a [Noti-Mati](https://noti-mati.web.app/)
